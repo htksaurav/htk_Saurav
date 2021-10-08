@@ -1,0 +1,146 @@
+body{
+    background-color: #726A95;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+}
+#heading {
+    margin: 3% 5% 19%;
+    text-align: left;
+}
+.head {
+    margin-top: 30px;
+}
+.heading-img {
+    text-align: right;
+}
+img.heading {
+    width: 80%;
+}
+.content {
+    text-align: left;
+    margin-top: 3%;
+    padding-top: 1%;
+}
+h1{
+    font-size: 4.5rem;
+}
+p.intro {
+    font-size: 1.5rem;
+}
+#About {
+    background-color: white;
+    margin-top: -180px;
+    color: #664E88;
+}
+
+.profile-pic {
+    margin-top: 1px;
+    padding-bottom: 3%;
+}
+.saurav-pic {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 20%;
+}
+.welcome {
+    margin: auto 30% auto 30%;
+    font-size: 1.2rem;
+}
+
+#project {
+    margin: 3% 2% 5% 2%;
+}
+.row {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+h5 {
+    color: black;
+}
+.card {
+    background-color: #726A95;
+}
+
+#skills {
+    background-color: white;
+    color: #664E88;
+    padding: 2% 0 3% 0;
+}
+.allskills {
+    margin: 4% 20% 2% 30%;
+    text-align: left;
+}
+.web-img {
+    float: left;
+    width: 23%;
+    padding-right: 5%;
+}
+.back-img {
+    float: right;
+    width: 25%;
+    padding-left: 5%;
+}
+.coding-img {
+    float: left;
+    width: 25%;
+    padding-right: 5%;
+}
+
+#contact-me {
+    padding: 4% 0 5% 0;
+}
+.contact-us {
+    margin: 30%, 0 30% 0;
+}
+.love {
+    padding: 2% 0 2% 0;
+}
+.btn-lg {
+    margin-top: 2%;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    color: #726A95;
+}
+.fb{
+    padding: 0 10px 4%;
+    color: #726A95;
+}
+
+@media (max-width: 1025px) {
+    #heading{
+        text-align: center;
+    }
+    .heading-img{
+        text-align: left;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    #About {
+        margin-top: -50px;
+    }
+    .saurav-pic{
+        width: 50%;
+    }
+    .welcome{
+        margin: auto 10% auto 10%;
+    }
+    
+    .card {
+        margin: 2% 0 3% 6%;
+    }
+    .allskills{
+        margin: 15% 5% 4% 5%;
+    }
+    .common-img{
+        width: 40%;
+    }
+}
